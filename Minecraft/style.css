@@ -1,0 +1,38 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+}
+*
+{
+	font-family: Minecraft Regular;
+}
+.box
+{
+	width: 243px;
+	height: 264px;
+	background-image: url(signmc.png);
+}
+#boxh1
+{
+	top: 50%;
+	transform: translateY(-50);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(to right, red , white);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.box h1
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	width: 199px;
+	height: 200px;
+}
