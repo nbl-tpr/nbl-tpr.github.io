@@ -4,19 +4,19 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 body
 {
 	min-width: 100vh;
-	background: #150019;
+	background: #222222;
 }
 .navigation
 {
 	position: fixed;
 	width: 60px;
 	height: 100%;
-	background: #3e0748;
+	background: #EAEAEA;
 	transition: 0.5s;
 	overflow: hidden;
 }
@@ -40,7 +40,7 @@ body
 }
 .navigation ul li:hover
 {
-	background: #ea1d63;
+	background: #C3C3C3;
 }
 .navigation ul li a
 {
@@ -80,16 +80,17 @@ body
 	right: 0;
 	width: 60px;
 	height: 60px;
-	background: #330748;
+	background: #EAEAEA;
 	cursor: pointer;
 }
 .toggle.active
 {
-	background: #ea1d63;
+	background: #C3C3C3;
 }
 .toggle:before
 {
 	content: '\f0c9';
+	filter: invert(1);
 	font-family: fontAwesome;
 	position: absolute;
 	width: 100%;
@@ -101,7 +102,7 @@ body
 }
 .toggle.active:before
 {
-	content: '\f00d';
+	content: '\f057 ';
 }
 @media (max-width: 767px)
 {
@@ -114,4 +115,16 @@ body
 		left: 0px;
 		width: 100%;
 	}
+}
+.title
+{
+	color: black;
+}
+.icon
+{
+	filter: invert(1);
+}
+img
+{
+	height: 100px;
 }
